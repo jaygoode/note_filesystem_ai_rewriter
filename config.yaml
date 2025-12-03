@@ -1,0 +1,4 @@
+notes_root_dir: "C:/Users/username/Notes"
+ai_model: "gpt-oss:20b"
+# ai_model: "qwen3:30b"
+output_dir: "C:/Users/username/Notes/Rewritten"
