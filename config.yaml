@@ -1,4 +1,15 @@
-notes_root_dir: "C:/Users/username/Notes"
 ai_model: "gpt-oss:20b"
 # ai_model: "qwen3:30b"
+temperature: 0.3
+basemodel_name: "TextFile"
+# basemodel_name: "CVText"
+
+notes_root_dir: "C:/Users/username/Notes"
+input_dir: "C:/Users/username/Notes/ToRewrite"
 output_dir: "C:/Users/username/Notes/Rewritten"
+
+task_specific_prompt_folder: "/text_improvement"
+ai_prompts_folder: "/ai_prompts"
+human_prompt_filename: "human_prompt.yaml"
+system_prompt_filename: "system_prompt.yaml"
+return_basemodel: "TextFile"
